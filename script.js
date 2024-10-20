@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
       historyIndex = commandHistory.length;
 
       if (command in commands) {
-        addOutput(`visitor@portfolio:~$ ${command}`);
+        addOutput(`nilesh@portfolio:~$ ${command}`);
         if (command === "clear") {
           outputElement.innerHTML = "";
           addOutput("Welcome to Nilesh Pal's portfolio terminal!");
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
           addOutput(commands[command]);
         }
       } else {
-        addOutput(`visitor@portfolio:~$ ${command}`);
+        addOutput(`nilesh@portfolio:~$ ${command}`);
         addOutput(
           `Command not found: ${command}. Type 'help' for available commands.`
         );
