@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", function () {
         addOutput(`nilesh@portfolio:~$ ${command}`);
         if (command === "clear") {
           outputElement.innerHTML = "";
-          addOutput("Welcome to Nilesh Pal's portfolio terminal!");
           addOutput("Type 'help' to see available commands.");
         } else {
           addOutput(commands[command]);
