@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: monospace;
+  color: #00ff00;
+  font-size: 1.2rem;
+}
+h1{
+    color: #fff;
+}
+
+.terminal {
+  padding: 20px;
+  color: #00ff00;
+}
+
+#output {
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  overflow-y: auto;
+}
+
+.input-line {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  background: none;
+  border: none;
+  color: #00ff00;
+  outline: none;
+  font-size: 1rem;
+  flex: 1;
+}
+
+a {
+  color: #00ff00;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+div#output div {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .terminal {
+    padding: 10px;
+  }
+
+  #output {
+    max-height: 300px;
+  }
+
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
+}
