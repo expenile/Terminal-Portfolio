@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     about:
       "About Me: I am an aspiring software developer passionate about full-stack development. Currently, I am exploring various technologies to enhance my skills in both frontend and backend development.",
     contact:
-      "Contact: You can reach me via email at <a href='mailto:palitbnilesh@gmail.com'>rakshit@example.com</a> or connect with me on <a href='https://www.linkedin.com/in/nileshrpal/' target='_blank'>LinkedIn</a>.",
+      "Contact: You can reach me via email at <a href='mailto:palitbnilesh@gmail.com'>palitbnilesh@gmail.com</a> or connect with me on <a href='https://www.linkedin.com/in/nileshrpal/' target='_blank'>LinkedIn</a>.",
     social:
       "LinkedIn: <a href='https://www.linkedin.com/in/nileshrpal/' target='_blank'>LinkedIn Profile</a> | GitHub: <a href='https://github.com/expenile' target='_blank'>GitHub</a>",
     education:
